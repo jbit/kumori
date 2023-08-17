@@ -6,17 +6,17 @@ Simple CDK project for deploying Rust Lambdas and TypeScript lambdas and measuri
 
 ## Structure
 
-| Location         | Description                                                                |
-| ---------------- | -------------------------------------------------------------------------- |
-| kumori-cdk.ts    | CDK stack for setting up lambdas and S3 buckets                            |
-| lambda-rs-fir/   | Rust Lambda function using fast_image_resize (FIR) to scale images from S3 |
-| lambda-ts-pica/  | TypeScript Lambda function using pica to scale images in pure JavaScript   |
-| lambda-ts-sharp/ | TypeScript Lambda function using sharp to scale images using C (libvips)   |
-| measure/         | Simple Rust tool to measure run time of Lambda functions executions        |
+| Location                               | Description                                                                |
+| -------------------------------------- | -------------------------------------------------------------------------- |
+| [kumori-cdk.ts](./kumori-cdk.ts)       | CDK stack for setting up lambdas and S3 buckets                            |
+| [lambda-rs-fir/](./lambda-rs-fir/)     | Rust Lambda function using fast_image_resize (FIR) to scale images from S3 |
+| [lambda-ts-pica/](./lambda-ts-pica/)   | TypeScript Lambda function using pica to scale images in pure JavaScript   |
+| [lambda-ts-sharp/](./lambda-ts-sharp/) | TypeScript Lambda function using sharp to scale images using C (libvips)   |
+| [measure/](./measure/)                 | Simple Rust tool to measure run time of Lambda functions executions        |
 
 ## Setup
 
-The commands below assume you're on macOS with [https://brew.sh/](Homebrew Package Manager) installed. If you're using a different OS, please read the linked sites.
+The commands below assume you're on macOS with [Homebrew Package Manager](https://brew.sh/) installed. If you're using a different OS, please read the linked sites.
 
 ### Install AWS CLI
 
