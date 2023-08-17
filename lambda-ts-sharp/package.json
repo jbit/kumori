@@ -1,0 +1,14 @@
+{
+  "name": "kumori-lambda-ts-sharp",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.304.0",
+    "@types/aws-lambda": "^8.10.114"
+  },
+  "dependencies": {
+    "sharp": "^0.32.1"
+  }
+}
